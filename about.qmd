@@ -1,9 +1,12 @@
 ---
-title: "About"
+title: "About us"
 ---
 
 About this site
 
-```{r}
-1 + 1
+```{}
 ```
+
+![](images/carinus_Pharmaceutical_Industrys_State-of-the-Art_Factory_with__1b902dbb-9fda-43b5-8e64-d23188259bd1.png)
+
+coding for health
