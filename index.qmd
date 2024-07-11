@@ -1,8 +1,41 @@
----
-title: "soft-pharma "
----
-```{r eval=FALSE}
-"writing my thoughts"
-```
+[Welcome to Soft-Pharma Website]{.underline}
 
- <https://quarto.org/docs/websites>
+![](images/carinus_Pharmaceutical_Industrys_State-of-the-Art_Factory_with__1b902dbb-9fda-43b5-8e64-d23188259bd1-01.png){width="495" height="151"}
+
+::: grid-container
+::: {#section1 .grid-item}
+```         
+<h2>Section 1</h2>
+<p>This section has content related to…</p>
+```
+:::
+
+::: {#section2 .grid-item}
+```         
+<h2>Section 2</h2>
+<p>This section has content related to…</p>
+```
+:::
+
+\`
+
+::: {#section3 .grid-item}
+```         
+<h2>Section 3</h2>
+<p>This section has content related to…</p>
+```
+:::
+
+::: {#section4 .grid-item}
+```         
+<h2>Section 4</h2>
+<p>This section has content related to…</p>
+```
+:::
+:::
+
+<footer>
+
+<p>© 2024 soft-pharma. All rights reserved.</p>
+
+</footer>

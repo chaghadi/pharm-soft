@@ -7,7 +7,22 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: Articles
+        menu:
+          - href: article1.qmd
+            text: Article 1
+          - href: article2.qmd
+            text: Article 2
+          - href: article3.qmd
+            text: Article 3
+      - text: Resources
+        menu:
+          - href: res1.qmd
+            text: Resource 1
+          - href: res2.qmd
+            text: Resource 2
+          - href: res3.qmd
+            text: Resource 3
 
 format:
   html:
@@ -16,4 +31,3 @@ format:
     toc: true
 
 editor: visual
-

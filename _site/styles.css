@@ -4,8 +4,14 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-color: #000;
-  color: #fff;
+  background-color: #1e90ff; /* Medium blue background */
+  color: #333;
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the content vertically */
+  min-height: 100vh; /* Ensure full viewport height */
+  border: 5px solid black; /* Black border around the page */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
 }
 
 a {
@@ -23,19 +29,35 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
-h1 { font-size: 2.5rem; }
-h2 { font-size: 2rem; }
-h3 { font-size: 1.75rem; }
-h4 { font-size: 1.5rem; }
-h5 { font-size: 1.25rem; }
-h6 { font-size: 1rem; }
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
 
 /* Layout */
 header {
-  background-color: #333;
   color: #fff;
   padding: 1rem 0;
-  text-align: center;
+  text-align: center; /* Center align header content */
 }
 
 header a {
@@ -44,17 +66,28 @@ header a {
 }
 
 main {
-  padding: 2rem;
+  padding: 3rem;
+  background-color: #001; /* White background for main content */
+  border: 2px solid #000; /* Black border around main content */
+  border-radius: 10px; /* Rounded corners */
+  max-width: 800px; /* Limit maximum width of main content */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
 }
 
 footer {
   background-color: #333;
   color: #fff;
   text-align: center;
-  padding: 1rem 0;
-  position: absolute;
-  bottom: 0;
+  padding: 10px;
   width: 100%;
+  position: fixed; /* Fixed to bottom of viewport */
+  bottom: 0;
+  border-top: 5px solid black; /* Added black border to the top of the footer */
+}
+
+footer p {
+  margin: 0; /* Remove default margin */
+  line-height: 1.5; /* Adjust line height for better readability */
 }
 
 /* Components */
@@ -65,6 +98,7 @@ button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 button:hover {
@@ -76,14 +110,15 @@ form {
   margin: 0 auto;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 0.75rem;
   margin: 0.5rem 0;
   border: 1px solid #ccc;
   border-radius: 4px;
-  background-color: #333;
-  color: #fff;
+  background-color: #f0f0f0;
+  color: #333;
 }
 
 table {
@@ -92,11 +127,14 @@ table {
   margin: 1rem 0;
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid #444;
 }
 
-th, td {
+th,
+td {
   padding: 0.75rem;
   text-align: left;
   background-color: #222;
@@ -109,14 +147,64 @@ th, td {
     font-size: 0.875rem;
   }
 
-  h1 { font-size: 2rem; }
-  h2 { font-size: 1.75rem; }
-  h3 { font-size: 1.5rem; }
-  h4 { font-size: 1.25rem; }
-  h5 { font-size: 1rem; }
-  h6 { font-size: 0.875rem; }
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    font-size: 1rem;
+  }
+
+  h6 {
+    font-size: 0.875rem;
+  }
 
   main {
     padding: 1rem;
   }
+}
+
+/* Grid Layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column */
+  gap: 20px; /* Gap between grid items */
+  margin-top: 2px; /* Spacing from header */
+  max-width: 800px; /* Limit width of grid */
+}
+
+.grid-item {
+  padding: 35px;
+  text-align: center;
+  background-color: #fff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+#section1 {
+  background-color: #ffcccc; /* Light red */
+}
+
+#section2 {
+  background-color: #ffedcc; /* Light orange */
+}
+
+#section3 {
+  background-color: #ccffcc; /* Light green */
+}
+
+#section4 {
+  background-color: #cce5ff; /* Light blue */
 }
