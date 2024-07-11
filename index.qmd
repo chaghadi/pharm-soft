@@ -1,4 +1,4 @@
-[Welcome to Soft-Pharma Website]{.underline}
+[Welcome to PharmSoft Website]{.underline}
 
 ![](images/carinus_Pharmaceutical_Industrys_State-of-the-Art_Factory_with__1b902dbb-9fda-43b5-8e64-d23188259bd1-01.png){width="495" height="151"}
 
